@@ -14,7 +14,20 @@ a {
   color: unset;
   text-decoration: none;
 }
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  text-align: left;
+  color: #81afdd;
+}
 
+.colored-item {
+  background: #ae67fa;
+  background: linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
@@ -60,7 +73,7 @@ a {
 .orange__button:hover {
   background-color: #ff603c;
 }
-/* 
+
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
@@ -103,7 +116,26 @@ a {
     transform: scale(1);
   }
 }
+hr {
+  /* border: 2px solid; */
+  width: 38px !important;
+  height: 0.4rem;
+  margin: 1rem auto 0.5rem 0px;
+  background: linear-gradient(to right, #ae67fa -13.86%, #f49867 99.55%);
+}
+@media screen and (max-width: 1200px) {
+  .section__padding {
+    padding: 4rem;
+  }
 
+  .section__margin {
+    margin: 4rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
@@ -111,6 +143,10 @@ a {
 
   .section__margin {
     margin: 4rem;
+  }
+
+  p {
+    font-size: 12px;
   }
 }
 
@@ -122,4 +158,8 @@ a {
   .section__margin {
     margin: 4rem 2rem;
   }
-} */
+
+  p {
+    font-size: 10px;
+  }
+}

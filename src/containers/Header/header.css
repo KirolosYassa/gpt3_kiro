@@ -5,7 +5,7 @@
 }
 .headline-text {
   padding: 3rem 2rem;
-  width: 50%;
+  /* width: 20rem; */
 }
 
 .headline-text h1 {
@@ -14,10 +14,6 @@
   line-height: 75px;
   letter-spacing: -0.04em;
   text-align: left;
-  background: #ae67fa;
-  background: linear-gradient(to right, #ae67fa 0%, #f49867 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .headline-text p {
@@ -30,6 +26,7 @@
   border: none;
   padding: 1.2rem;
 }
+
 .header__email-address button {
   width: 30%;
 }
@@ -55,6 +52,63 @@
   margin: 0 1rem 0 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .headline-text {
+    padding: 0rem 0rem;
+    width: 8rem;
+  }
+
+  .headline-text h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .headline-text p {
+    color: #81afdd;
+    opacity: 70%;
+  }
+  .form-control {
+    color: white;
+    background-color: #052d56;
+    border: none;
+    padding: 1.2rem;
+  }
+
+  .header__email-address button {
+    width: 30%;
+  }
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.213);
+  }
+  .form-control:current {
+    color: rgba(255, 255, 255, 0.213);
+  }
+  .header__email-address {
+    display: flex;
+    margin: 2rem 0rem;
+  }
+
+  .form-text {
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 37.61px;
+    text-align: left;
+  }
+  .form-text img {
+    margin: 0 1rem 0 0;
+  }
+}
 .header__ai-image {
-  width: 50%;
+  width: 20rem;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__ai-image {
+    width: 2rem;
+  }
 }

@@ -1,0 +1,9 @@
+.brand-section {
+  width: 70%;
+  margin: 1rem auto;
+}
+.brand-section > img {
+  width: 6rem;
+  margin: 1rem auto;
+  padding: 1rem;
+}

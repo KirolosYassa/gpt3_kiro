@@ -4,13 +4,15 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import emaillist_profiles from "../../assets/people.png";
 import ai from "../../assets/ai.png";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <div id="home">
-      <div className="headline-text">
-        <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>
+    <div id="home row">
+      <div className="headline-text col-lg-6 col-md-12">
+        <h1 className="colored-item">
+          Let’s Build Something amazing with GPT-3 OpenAI
+        </h1>
         <p>
           Yet bed any for travelling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy
@@ -37,8 +39,12 @@ const Header = () => {
           </Form.Group>
         </Form>
       </div>
-    
-    <img className="header__ai-image" src={ai} alt="ai image"/>
+
+      <img
+        className="header__ai-image  col-lg-6 col-md-12"
+        src={ai}
+        alt="ai image"
+      />
     </div>
   );
 };

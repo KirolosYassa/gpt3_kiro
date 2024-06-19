@@ -1,0 +1,29 @@
+#wgpt3 {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  background-color: #042c54;
+  color: white;
+}
+
+.possibility-headline {
+  margin: 2rem auto 0px;
+}
+.possibility-headline h1 {
+  /* padding: 0px; */
+}
+
+.possibility-headline h6 {
+  color: #ff8a71;
+  /* padding: 0px; */
+}
+
+.possibility-headline h6:hover {
+  color: #ffa794;
+}
+
+@media screen and (max-width: 1200px) {
+  .possibility-headline {
+    margin: 0.5rem auto 1rem;
+  }
+}

@@ -1,7 +1,8 @@
 import React from "react";
-import { Article, Brand, CTA, NavBar, Feature } from "./components";
+import { Article, Brand, CTA, NavBar, Feature, WgptPoint } from "./components";
 import "@fontsource/manrope";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 import {
   Blog,
   Features,
