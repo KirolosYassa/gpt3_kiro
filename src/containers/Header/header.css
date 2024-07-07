@@ -55,7 +55,7 @@
 @media screen and (max-width: 1200px) {
   .headline-text {
     padding: 0rem 0rem;
-    width: 8rem;
+    width: AUTO;
   }
 
   .headline-text h1 {
@@ -103,12 +103,13 @@
   }
 }
 .header__ai-image {
-  width: 20rem;
+  width: 50%;
   height: auto;
 }
 
 @media screen and (max-width: 1200px) {
   .header__ai-image {
-    width: 2rem;
+    width: 80%;
+    margin-left: auto;
   }
 }

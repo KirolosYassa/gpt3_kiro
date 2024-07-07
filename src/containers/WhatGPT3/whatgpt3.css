@@ -13,15 +13,6 @@
   /* padding: 0px; */
 }
 
-.possibility-headline h6 {
-  color: #ff8a71;
-  /* padding: 0px; */
-}
-
-.possibility-headline h6:hover {
-  color: #ffa794;
-}
-
 @media screen and (max-width: 1200px) {
   .possibility-headline {
     margin: 0.5rem auto 1rem;

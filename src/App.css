@@ -28,6 +28,27 @@ p {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.colored-link {
+  color: #ff8a71;
+  /* padding: 0px; */
+}
+
+.colored-link:hover {
+  color: #ffa794;
+}
+img {
+  display: block;
+  width: 30rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  img {
+    width: 20rem;
+  }
+}
+
 .gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,

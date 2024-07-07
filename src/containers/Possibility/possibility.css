@@ -1,0 +1,19 @@
+.possibility {
+  padding: 2rem;
+}
+.possibility-paragraph {
+  font-size: 1.2rem;
+}
+
+.possibility-text-box {
+  display: grid;
+  width: 30rem;
+  grid-gap: 0rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .possibility-paragraph {
+    font-size: 14px;
+  }
+}

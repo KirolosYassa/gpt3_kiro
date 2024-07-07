@@ -18,7 +18,7 @@ const WhatGPT3 = () => {
         <h1 className="col-lg-9 col-md-12 colored-item">
           The possibilities are beyond your imagination
         </h1>
-        <h6 className="col-lg-3 col-md-12 ">Explore The Library</h6>
+        <h6 className="col-lg-3 col-md-12 colored-link">Explore The Library</h6>
       </div>
       <div className="row">
         <div className="col-lg-4 col-md-12">

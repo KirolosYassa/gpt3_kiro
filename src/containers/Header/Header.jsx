@@ -39,12 +39,9 @@ const Header = () => {
           </Form.Group>
         </Form>
       </div>
-
-      <img
-        className="header__ai-image  col-lg-6 col-md-12"
-        src={ai}
-        alt="ai image"
-      />
+      <div className="col-lg-6 col-md-12">
+        <img className="header__ai-image  " src={ai} alt="ai image" />
+      </div>
     </div>
   );
 };
