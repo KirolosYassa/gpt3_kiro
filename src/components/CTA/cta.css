@@ -1,0 +1,29 @@
+#CTA {
+  display: grid;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  color: black;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  margin: auto;
+}
+.cta_text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.cta_paragraph {
+  color: black;
+  font-size: 0.8rem;
+  margin: auto;
+}
+.cta_button {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  float: right;
+  grid-column-start: 4;
+  grid-column-end: 4;
+
+}
