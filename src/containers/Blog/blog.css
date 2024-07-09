@@ -1,0 +1,13 @@
+#blog {
+  color: white !important;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
+}
+
+.blog_main {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.blog_item {
+}

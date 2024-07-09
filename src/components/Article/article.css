@@ -1,0 +1,19 @@
+.article-box {
+  background-color: #042c54;
+  /* padding: 1rem; */
+}
+/* .article-box img {
+  margin: 0.5rem auto 6rem;
+} */
+
+.article-box h3 {
+  margin: 0.5rem auto 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.article-box h6 {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
