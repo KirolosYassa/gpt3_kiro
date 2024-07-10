@@ -1,0 +1,43 @@
+#footer {
+  color: white;
+}
+.footer-step {
+  width: 35rem;
+  text-align: center;
+  margin: auto;
+}
+
+.footer-step h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.footer-links-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: left;
+  gap: 10px;
+  padding: 6rem;
+}
+
+.footer-logo {
+  width: 5rem;
+  /* display: block; */
+  /* margin: auto; */
+}
+.footer-links-div h6 {
+  font-size: 0.6rem;
+}
+.footer-links-div h5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.footer-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.footer-line {
+  text-align: center;
+}
