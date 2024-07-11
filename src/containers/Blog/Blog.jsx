@@ -14,36 +14,41 @@ const Blog = () => {
         A lot is happening, We are blogging about it.{" "}
       </h1>
       <div id="blog">
-        <Article
-          className="blog_main"
-          srcOfImage={blog1}
-          date_published="Sep 26, 2021"
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-        />
-        <Article
-          className="blog_item"
-          srcOfImage={blog2}
-          date_published="Sep 26, 2021"
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-        />
-        <Article
-          className="blog_item"
-          srcOfImage={blog3}
-          date_published="Sep 26, 2021"
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-        />
-        <Article
-          className="blog_item"
-          srcOfImage={blog4}
-          date_published="Sep 26, 2021"
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-        />
-        <Article
-          className="blog_item"
-          srcOfImage={blog5}
-          date_published="Sep 26, 2021"
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-        />
+        <div className="blog_main">
+          <Article
+            srcOfImage={blog1}
+            date_published="Sep 26, 2021"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+        </div>
+        <div className="blog_item blog_item_1">
+          <Article
+            srcOfImage={blog2}
+            date_published="Sep 26, 2021"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+        </div>
+        <div className="blog_item blog_item_2">
+          <Article
+            srcOfImage={blog3}
+            date_published="Sep 26, 2021"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+        </div>
+        <div className="blog_item blog_item_3">
+          <Article
+            srcOfImage={blog4}
+            date_published="Sep 26, 2021"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+        </div>
+        <div className="blog_item blog_item_4">
+          <Article
+            srcOfImage={blog5}
+            date_published="Sep 26, 2021"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+        </div>
       </div>
     </div>
   );

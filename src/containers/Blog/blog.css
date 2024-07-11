@@ -1,13 +1,29 @@
 #blog {
   color: white !important;
   display: grid;
-  gap: 1rem;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 10rem;
 }
 
 .blog_main {
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column: 1;
+  grid-row: 1/4;
 }
-.blog_item {
+.blog_item_1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.blog_item_2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.blog_item_3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.blog_item_4 {
+  grid-column: 3;
+  grid-row: 2;
 }

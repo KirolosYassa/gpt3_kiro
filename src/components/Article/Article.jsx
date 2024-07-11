@@ -5,9 +5,11 @@ const Article = ({ srcOfImage, date_published, title }) => {
   return (
     <div className="article-box">
       <img src={srcOfImage} />
-      <h6>{date_published}</h6>
-      <h3>{title}</h3>
-      <h6>Read Full Article</h6>
+      <div className="article-text">
+        <h6>{date_published}</h6>
+        <h3>{title}</h3>
+        <h6>Read Full Article</h6>
+      </div>
     </div>
   );
 };
