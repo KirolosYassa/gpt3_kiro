@@ -10,7 +10,7 @@ const NavBar = () => {
       <Navbar className="navbar">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo} alt="logo" />
+            <img className="logo" src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -21,11 +21,11 @@ const NavBar = () => {
               <Nav.Link href="#article">Article</Nav.Link>
               <Nav.Link href="#casestudies">Case Studies</Nav.Link>
               <Nav.Link href="#library">Library</Nav.Link>
-              <div>
-                <span className="navbar__sign-section">
-                  <p>Sign in</p>
-                  <button className="orange__button">Sign Up</button>
-                </span>
+              <div className="navbar__sign-section">
+                {/* <span className=""> */}
+                <p>Sign in</p>
+                <button className="orange__button">Sign Up</button>
+                {/* </span> */}
               </div>
             </Nav>
           </Navbar.Collapse>

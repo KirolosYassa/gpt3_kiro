@@ -7,6 +7,14 @@ nav {
   cursor: pointer;
 }
 
+.logo {
+  width: auto;
+  margin: auto;
+}
+.navbar-collapse {
+  margin: auto;
+  padding-left: 1rem;
+}
 .navbar {
   padding: 2rem;
   margin-right: auto;
@@ -22,7 +30,7 @@ nav {
 
 .navbar__sign-section {
   margin-left: auto;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   gap: 1rem;
   float: right;

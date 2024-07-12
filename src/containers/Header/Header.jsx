@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <div id="home row">
-      <div className="headline-text col-lg-6 col-md-12">
+    <div id="home">
+      <div className="headline-text ">
         <h1 className="colored-item">
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
@@ -32,14 +32,14 @@ const Header = () => {
                 Get Started
               </Button>
             </span>
-            <Form.Text className="text-muted">
-              <img src={emaillist_profiles}></img>
-              1,600 people requested access a visit in last 24 hours
+            <Form.Text className="text-muted emailList">
+              <img className="emaillist-img" src={emaillist_profiles}></img>
+              <p> 1,600 people requested access a visit in last 24 hours</p>
             </Form.Text>
           </Form.Group>
         </Form>
       </div>
-      <div className="col-lg-6 col-md-12">
+      <div className="header-img ">
         <img className="header__ai-image  " src={ai} alt="ai image" />
       </div>
     </div>

@@ -1,10 +1,20 @@
 #home {
   margin: 0rem;
   padding: 3rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  justify-content: end;
 }
 .headline-text {
-  padding: 3rem 2rem;
+  padding: 3rem 4.3rem;
+  grid-column: 1;
+  grid-row: 1/5;
+  display: grid;
+  row-gap: 1rem;
+
   /* width: 20rem; */
 }
 
@@ -19,6 +29,7 @@
 .headline-text p {
   color: #81afdd;
   opacity: 70%;
+  font-size: 1.3rem;
 }
 .form-control {
   color: white;
@@ -102,8 +113,27 @@
     margin: 0 1rem 0 0;
   }
 }
+.emailList {
+  display: grid;
+  column-gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+.emailList img {
+  width: 12rem;
+  grid-column: 1;
+}
+.emailList p {
+  font-size: 0.8rem;
+  color: white;
+  grid-column: 2;
+}
+
+.header-img {
+  grid-column: 2;
+  grid-row: 1/5;
+}
 .header__ai-image {
-  width: 50%;
+  width: 40rem;
   height: auto;
 }
 
