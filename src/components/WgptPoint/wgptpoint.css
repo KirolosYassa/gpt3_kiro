@@ -1,7 +1,42 @@
 .WgptPoint-section {
   text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 2rem;
+}
+.WgptPoint-section-title {
+  grid-row: 1;
+}
+.WgptPoint-section-title h3 {
+  margin-top: 1rem;
 }
 
+.WgptPoint-section-paragraph {
+  grid-row: 2;
+  width: 19rem;
+}
+.WgptPoint-section-paragraph p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 .WgptPoint-section h3 {
-  margin: auto auto 0.5rem;
+  /* margin: auto auto 0.5rem; */
+}
+@media screen and (max-width: 1200px) {
+  .WgptPoint-section {
+    column-gap: 2rem;
+  }
+  .WgptPoint-section-title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .WgptPoint-section-title h3 {
+    margin-top: 1rem;
+  }
+
+  .WgptPoint-section-paragraph {
+    grid-column: 2;
+    grid-row: 1;
+    width: 19rem;
+  }
 }

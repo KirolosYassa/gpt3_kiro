@@ -1,6 +1,6 @@
 .brand-section {
-  width: 70%;
-  margin: 1rem auto;
+  width: 40rem;
+  margin: 0rem auto 5rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 0rem;

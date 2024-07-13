@@ -4,16 +4,15 @@ import "./features.css";
 
 const Features = () => {
   return (
-    <div className="row possibility">
-      <div className="col-lg-3 col-md-12">
-        <h1 className="col-lg-9 col-md-12 colored-item">
-          The possibilities are beyond your imagination
+    <div className="features">
+      <div className="features-headline">
+        <h1 className="colored-item">
+          The Future is Now and You Just Need To Realize It. Step into Future
+          Today & Make it Happen.
         </h1>
-        <h6 className="col-lg-3 col-md-12 colored-link">
-          Request Early Access to Get Started
-        </h6>
+        <h6 className="colored-link">Request Early Access to Get Started</h6>
       </div>
-      <div className="col-lg-3 col-md-12">
+      <div className="feutures-column">
         <WgptPoint
           Title="Improving end distrusts instantly "
           Paragraph="From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."

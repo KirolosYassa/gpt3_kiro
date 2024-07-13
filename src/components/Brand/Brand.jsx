@@ -8,24 +8,12 @@ import slack from "../../assets/slack.png";
 
 const Brand = () => {
   return (
-    <div className="row brand-section">
-      <img className="col-lg-3 col-md-6 col-sm-12 " src={google} alt={google} />
-      <img className="col-lg-3 col-md-6 col-sm-12 " src={slack} alt={slack} />
-      <img
-        className="col-lg-3 col-md-6 col-sm-12 "
-        src={atlassian}
-        alt={atlassian}
-      />
-      <img
-        className="col-lg-3 col-md-6 col-sm-12 "
-        src={dropbox}
-        alt={dropbox}
-      />
-      <img
-        className="col-lg-3 col-md-6 col-sm-12 "
-        src={shopify}
-        alt={shopify}
-      />
+    <div className="brand-section">
+      <img src={google} alt={google} />
+      <img src={slack} alt={slack} />
+      <img src={atlassian} alt={atlassian} />
+      <img src={dropbox} alt={dropbox} />
+      <img src={shopify} alt={shopify} />
     </div>
   );
 };

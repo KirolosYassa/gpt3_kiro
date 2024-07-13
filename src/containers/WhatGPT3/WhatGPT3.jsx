@@ -20,9 +20,7 @@ const WhatGPT3 = () => {
         <h1 className="colored-item">
           The possibilities are beyond your imagination
         </h1>
-        <h6 className=" colored-link possibility-link">
-          Explore The Library
-        </h6>
+        <h6 className=" colored-link possibility-link">Explore The Library</h6>
       </div>
       <div className="row">
         <div className="col-lg-4 col-md-12">
