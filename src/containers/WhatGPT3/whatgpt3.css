@@ -5,12 +5,31 @@
   background-color: #042c54;
   color: white;
 }
-
+.wgpt3-first-title {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 4rem;
+}
+.wgpt3-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.wgpt3-paragraph {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: auto;
+}
 .possibility-headline {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
   margin: 2rem auto 0px;
 }
+.wgpt3-paragraph {
+  width: auto;
+  padding: 0px;
+}
 .possibility-headline h1 {
-  /* padding: 0px; */
+  width: 35rem;
 }
 
 @media screen and (max-width: 1200px) {

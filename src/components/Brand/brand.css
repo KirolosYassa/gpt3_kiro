@@ -1,9 +1,12 @@
 .brand-section {
   width: 70%;
   margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 0rem;
 }
 .brand-section > img {
-  width: 6rem;
+  width: auto;
   margin: 1rem auto;
   padding: 1rem;
 }

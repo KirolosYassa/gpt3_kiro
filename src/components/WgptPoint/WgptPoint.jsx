@@ -7,11 +7,11 @@ const WgptPoint = ({
 }) => {
   return (
     <div className="WgptPoint-section">
-      <div className="col-lg-6 col-md-12">
+      <div className="">
         <hr />
         <h3>{Title}</h3>
       </div>
-      <div className="col-lg-6 col-md-12">
+      <div className="">
         <p>{Paragraph}</p>
       </div>
     </div>

@@ -44,6 +44,8 @@ nav {
 
 .navbar__sign-section button {
   color: #ffffff;
+  width: 10rem;
+  height: 4rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
