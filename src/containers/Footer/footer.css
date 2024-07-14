@@ -1,10 +1,12 @@
 #footer {
+  background-color: #031b34;
+  padding: 5rem auto;
   color: white;
 }
 .footer-step {
   width: 35rem;
   text-align: center;
-  margin: auto;
+  margin: 5rem auto;
 }
 
 .footer-step h1 {
@@ -36,6 +38,7 @@
   background-color: transparent;
   border: 1px solid white;
   color: white;
+  padding: 1rem;
 }
 
 .footer-line {

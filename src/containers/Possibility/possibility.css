@@ -1,4 +1,9 @@
 .possibility {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0rem;
+  align-items: center;
+  
   padding: 2rem;
 }
 .possibility-paragraph {

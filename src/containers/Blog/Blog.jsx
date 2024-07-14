@@ -9,11 +9,11 @@ import blog5 from "../../assets/blog05.png";
 
 const Blog = () => {
   return (
-    <div>
+    <div id="blog">
       <h1 className="colored-item">
         A lot is happening, We are blogging about it.{" "}
       </h1>
-      <div id="blog">
+      <div className="blog-section">
         <div className="blog_main">
           <Article
             srcOfImage={blog1}

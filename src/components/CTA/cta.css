@@ -2,19 +2,27 @@
   display: grid;
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   color: black;
-  padding: 1rem;
-  width: 80%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0rem;
   border-radius: 0.5rem;
-  margin: auto;
+  width: 70rem;
+  margin: 7rem auto;
 }
 .cta_text {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+.cta_text h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 
 .cta_paragraph {
   color: black;
   font-size: 0.8rem;
+  font-weight: 500;
   margin: auto;
 }
 .cta_button {
@@ -22,6 +30,9 @@
   color: white;
   border-radius: 2rem;
   padding: 1rem;
+  width: 12rem;
+  height: auto;
+  margin: auto;
   float: right;
   grid-column-start: 4;
   grid-column-end: 4;
