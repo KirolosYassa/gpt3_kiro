@@ -10,28 +10,38 @@
   grid-template-columns: 1fr 4fr;
   column-gap: 4rem;
 }
+.wgpt3-title-headline {
+  align-self: start;
+}
 .wgpt3-title {
   font-size: 1.5rem;
   font-weight: 800;
 }
 .wgpt3-paragraph {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 300;
   margin-top: auto;
 }
+.wgpt3-paragraph {
+  width: 55rem;
+  padding: 0px;
+}
+
 .possibility-headline {
   display: grid;
   grid-template-columns: 5fr 1fr;
   margin: 5rem auto;
 }
-.wgpt3-paragraph {
-  width: auto;
-  padding: 0px;
-}
 .possibility-headline h1 {
   width: 35rem;
 }
-
+.WgptPoints-section {
+  display: flex;
+  gap: 0rem;
+}
+/* .WgptPoints-box {
+  width: 60rem;
+} */
 @media screen and (max-width: 1200px) {
   .possibility-headline {
     margin: 0.5rem auto 1rem;

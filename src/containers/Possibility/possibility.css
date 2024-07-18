@@ -1,11 +1,16 @@
 .possibility {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 0rem;
-  align-items: center;
-  
+  column-gap: 2rem;
+  align-items: end;
   padding: 2rem;
 }
+
+.possibility-img {
+  width: 30rem;
+  margin-right: 0px;
+}
+
 .possibility-paragraph {
   font-size: 1.2rem;
 }
@@ -13,10 +18,14 @@
 .possibility-text-box {
   display: grid;
   width: 30rem;
-  grid-gap: 0rem;
+  gap: 1.5rem;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
+.possibility-text-box h6:first-child {
+  color: #71e5ff;
+}
 @media screen and (max-width: 1200px) {
   .possibility-paragraph {
     font-size: 14px;

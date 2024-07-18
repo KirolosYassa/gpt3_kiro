@@ -1,0 +1,45 @@
+.WgptPoint-section-flex {
+  text-align: left;
+  display: flex;
+  color: white;
+  width: 0rem;
+  gap: 4rem;
+  place-self: start;
+}
+
+.WgptPoint-section-flex div {
+  width: 20rem;
+}
+.WgptPoint-section-title-flex h3 {
+  font-size: 1.5rem;
+  width: 15rem;
+}
+
+.WgptPoint-section-paragraph-flex {
+  width: 30rem;
+}
+.WgptPoint-section-paragraph-flex p {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 20rem;
+}
+.WgptPoint-section-flex h3 {
+}
+@media screen and (max-width: 1200px) {
+  .WgptPoint-section-flex {
+    column-gap: 2rem;
+  }
+  .WgptPoint-section-title-flex {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .WgptPoint-section-title-flex h3 {
+    margin-top: 1rem;
+  }
+
+  .WgptPoint-section-paragraph-flex {
+    grid-column: 2;
+    grid-row: 1;
+    width: 19rem;
+  }
+}

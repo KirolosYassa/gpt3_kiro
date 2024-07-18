@@ -3,7 +3,7 @@
   margin: 0rem auto 5rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 0rem;
+  column-gap: 1rem;
 }
 .brand-section > img {
   width: auto;

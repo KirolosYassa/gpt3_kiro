@@ -10,6 +10,8 @@ const Possibility = () => {
         <img className="possibility-img" src={vr} />
       </div>
       <div className=" possibility-text-box">
+        <h6 className="colored-link">Request Early Access to Get Started</h6>
+
         <h1 className="colored-item">
           The possibilities are beyond your imagination
         </h1>

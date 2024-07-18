@@ -1,6 +1,7 @@
 #blog {
   color: white !important;
   padding: 10rem;
+  padding-bottom: 2rem;
 }
 #blog .colored-item {
   width: 38rem;

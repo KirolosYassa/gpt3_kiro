@@ -40,7 +40,7 @@ const Footer = () => {
             <h6>info@payme.net</h6>
           </div>
         </div>
-        <p className="footer-line"> 2021 GPT3 Kiro. All rights reserved.</p>
+        <p className="footer-line"> @ 2021 GPT-3 Kiro. All rights reserved.</p>
       </div>
     </div>
   );

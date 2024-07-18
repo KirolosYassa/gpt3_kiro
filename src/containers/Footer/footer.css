@@ -1,46 +1,58 @@
 #footer {
   background-color: #031b34;
-  padding: 5rem auto;
   color: white;
 }
 .footer-step {
-  width: 35rem;
+  padding-top: 10rem;
+  width: 50rem;
   text-align: center;
   margin: 5rem auto;
 }
 
 .footer-step h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 .footer-links-div {
   display: grid;
   grid-template-columns: auto auto auto auto;
   text-align: left;
-  gap: 10px;
   padding: 6rem;
+  justify-items: center;
 }
-
+.footer-links-div div {
+  display: grid;
+  row-gap: 1rem;
+}
+.footer-links-div div:first-child {
+  align-content: start;
+}
 .footer-logo {
-  width: 5rem;
-  /* display: block; */
-  /* margin: auto; */
-}
-.footer-links-div h6 {
-  font-size: 0.6rem;
+  width: 10rem;
+  margin-left: 0px;
 }
 .footer-links-div h5 {
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.footer-links-div h6 {
+  font-size: 0.7rem;
+  font-weight: 100;
+  /* width: 6rem; */
 }
 
 .footer-button {
   background-color: transparent;
   border: 1px solid white;
   color: white;
+  margin: 3rem auto 0rem;
   padding: 1rem;
 }
 
 .footer-line {
   text-align: center;
+  color: white;
+  font-size: 0.8em;
 }

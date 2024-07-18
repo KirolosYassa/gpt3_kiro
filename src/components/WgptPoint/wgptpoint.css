@@ -13,10 +13,10 @@
 
 .WgptPoint-section-paragraph {
   grid-row: 2;
-  width: 19rem;
+  width: 21rem;
 }
 .WgptPoint-section-paragraph p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .WgptPoint-section h3 {

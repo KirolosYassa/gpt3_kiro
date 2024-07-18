@@ -11,11 +11,10 @@
 .headline-text {
   padding: 3rem 4.3rem;
   grid-column: 1;
-  grid-row: 1/5;
+  grid-row: 1/2;
   display: grid;
   row-gap: 1rem;
 
-  /* width: 20rem; */
 }
 
 .headline-text h1 {
@@ -114,23 +113,18 @@
   }
 }
 .emailList {
-  display: grid;
-  column-gap: 0;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
 }
 .emailList img {
   width: 12rem;
-  grid-column: 1;
 }
 .emailList p {
   font-size: 0.8rem;
   color: white;
-  grid-column: 2;
 }
 
 .header-img {
-  grid-column: 2;
-  grid-row: 1/5;
 }
 .header__ai-image {
   width: 40rem;

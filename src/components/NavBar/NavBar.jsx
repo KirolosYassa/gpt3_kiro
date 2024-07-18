@@ -13,7 +13,7 @@ const NavBar = () => {
             <img className="logo" src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse className="navbar-items" id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#wgpt3">What is GPT?</Nav.Link>
@@ -21,13 +21,11 @@ const NavBar = () => {
               <Nav.Link href="#article">Article</Nav.Link>
               <Nav.Link href="#casestudies">Case Studies</Nav.Link>
               <Nav.Link href="#library">Library</Nav.Link>
-              <div className="navbar__sign-section">
-                {/* <span className=""> */}
-                <p>Sign in</p>
-                <button className="orange__button">Sign Up</button>
-                {/* </span> */}
-              </div>
             </Nav>
+            <div className="navbar__sign-section">
+              <p>Sign in</p>
+              <button className="orange__button">Sign Up</button>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
